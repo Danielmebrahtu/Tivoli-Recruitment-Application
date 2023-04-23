@@ -1,4 +1,4 @@
-# IV1201-Recruitment-Application
+# Tivoli-Recruitment-Application
 This project is a part of the course IV1201 Architecture and Design of Global Applications at KTH. Its purpose is to facilitate the recruitment process for an amusement park according to the provided requirement specification.
 
 ## Project Description  
