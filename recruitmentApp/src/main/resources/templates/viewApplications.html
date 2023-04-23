@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+
+  <body>
+    <!-- Header -->
+    <header th:replace="../static/fragments/header :: header"></header>
+
+    <!-- Navigation -->
+    <nav th:replace="../static/fragments/navbar :: navbar"></nav>
+
+    <!-- Content -->
+    <div class="welcome">
+      <h1>View All Applications!</h1>
+      <table class="applications">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr th:each="app : ${applications}">
+            <td th:text="${app.name}"></td>
+            <td th:text="${app.surname}"></td>
+            <td th:text="${app.status}"></td>
+            <td> <button type="button">view</button> </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <footer th:replace="../static/fragments/footer :: footer"></footer>
+    
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"> 
+
+  <body>
+    <!-- Header -->
+    <header th:replace="../static/fragments/header :: header"></header>
+
+    <!-- Navigation -->
+    <nav th:replace="../static/fragments/navbar :: navbar"></nav>
+
+    <!-- Content -->
+    <div class="welcome">
+      <h1>Error</h1>
+      <p>Something went wrong when processing this request... :/</p>
+      <a href="/">go to home.</a>
+    </div>
+
+    <!-- Footer -->
+    <footer th:replace="../static/fragments/footer :: footer"></footer>
+    
+  </body>
+</html>

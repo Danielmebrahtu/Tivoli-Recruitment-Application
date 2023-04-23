@@ -1,0 +1,192 @@
+/* --- HTML TAGS --- */
+  body {
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+/* --- NAVBAR --- */
+  nav {
+    background-color: #f8cd89;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .user span {
+    margin-right: 10px;
+  }
+  .user a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  .user a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+  }
+  
+/* --- INDEX.html --- */
+  .welcome {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    color: #333333;
+  }
+  .introduction {
+    width: 512px; /*Same value as image (512px).*/
+    margin: 0 auto;
+    text-align: left;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+  }
+  .button {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffffdc;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #ffffff70;
+    color: #000000c1;
+  }
+  
+/* --- LOGIN.html --- */
+  .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  table td {
+    padding: 0px;
+  }
+
+/* --- REGISTER.html --- */
+  .register-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    padding: 2px;
+  }
+
+/* --- VIEWAPPLICATIONS.html --- */
+  .applications {
+    text-align: left;
+  }
+  
+/* --- FOOTER --- */
+  footer {
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8cd89;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .authors {
+    text-align: left;
+    list-style: none;
+  }
+  
